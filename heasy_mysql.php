@@ -18,10 +18,10 @@ class conexion{
 	
 	function __construct()
 	{	
-		$this->server="127.0.0.1";
+		$this->server="localhost";
 		$this->user="root";
 		$this->clave="";
-		$this->db="ejemplo_1";
+		$this->db="tu_base_datos";
 	}
 	public function conectar()
 	{
